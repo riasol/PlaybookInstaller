@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>PlaybookInstaller</groupId>
 	<artifactId>PlaybookInstaller</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<scm>
 		<connection>scm:git:git@github.com:riasol/PlaybookInstaller.git</connection>
 	</scm>
