@@ -6,6 +6,13 @@
 	<scm>
 		<connection>scm:git:git@github.com:riasol/PlaybookInstaller.git</connection>
 	</scm>
+	<distributionManagement>
+		<repository>
+			<id>company.repository</id>
+			<name>Riasol base repository</name>
+			<url>file:///c:/Users/robert/Moje dokumenty/upload</url>
+		</repository>
+	</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
@@ -35,9 +42,4 @@
 
 		</plugins>
 	</build>
-	<parent>
-		<groupId>eu.riasol</groupId>
-		<artifactId>riasol-parent</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
-	</parent>
 </project>
